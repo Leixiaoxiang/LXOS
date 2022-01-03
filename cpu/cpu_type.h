@@ -31,7 +31,6 @@ typedef uint32_t            cpu_add_t;/* 地址、栈、堆等使用*/
 typedef volatile uint32_t   reg32_t;         
 typedef cpu_add_t *         pcpu_add_t;
 typedef uchar_t *           puchar_t;
-typedef void *              ptask_handle_t
 
 #endif                                                                  /* __CPU_TYPE_H_            */
 /************************************* END OF FILES *************************************************/

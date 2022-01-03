@@ -32,9 +32,9 @@ typedef void (* ptask_fun_t)(void *);
     1、由高到低 STACK_TOP_DOWN 为1
     2、由低到高 STACK_TOP_DOWN 为0
 */
-#define STACK_TOP_DOWN      (0)
+#define STACK_TOP_DOWN      (1)
 #define TASK_NAME_LENGTH    (32)
-
+#define INITIAL_XPSR        (0x01000000)
 #define ALIGN_OFFSET        (3)
 #define ALIGN_BYTE          (1 << ALIGN_OFFSET)
 #define UP_ALIGN(type, value, nbyte)   \
