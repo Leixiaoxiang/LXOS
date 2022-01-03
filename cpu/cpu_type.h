@@ -21,14 +21,17 @@ typedef unsigned char       uint8_t;
 typedef unsigned short      uint16_t;
 typedef unsigned int        uint32_t;
 typedef unsigned long long  uint64_t;
+typedef unsigned char       uchar_t;
+typedef signed   char       schar_t;
 /*
     1、与 CPU 位数相关的数据类型声明，进行移植时这部分是需要更改的。
     2、默认 CPU 位数为32
 */
 typedef uint32_t            cpu_add_t;/* 地址、栈、堆等使用*/
 typedef volatile uint32_t   reg32_t;         
-
-
+typedef cpu_add_t *         pcpu_add_t;
+typedef uchar_t *           puchar_t;
+typedef void *              ptask_handle_t
 
 #endif                                                                  /* __CPU_TYPE_H_            */
 /************************************* END OF FILES *************************************************/

@@ -39,6 +39,7 @@ typedef enum _list_return        list_return_t;
 /*****************************************************************************************************
  *                                              º¯ÊıÉùÃ÷
 *****************************************************************************************************/
+list_return_t ListMonoItemInit(plist_mono_t  pListNode);
 
 list_return_t ListMonoHeadInsert(plist_mono_resc_t  pListResc, 
                                     plist_mono_t  pListNode);
